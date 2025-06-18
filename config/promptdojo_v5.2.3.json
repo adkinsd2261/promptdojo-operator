@@ -1,0 +1,42 @@
+{
+  "version": "5.2.3",
+  "commands": {
+    "/start": "Begin your training journey",
+    "/rubric": "Review the 5-part grading rubric",
+    "/day1": "Begin Day 1 of training",
+    "/day2": "Continue with Day 2 of training",
+    "/day3": "Advance to Day 3",
+    "/day4": "Training for Day 4",
+    "/day5": "Training for Day 5",
+    "/day6": "Training for Day 6",
+    "/day7": "Final day of training before PromptPass",
+    "/outlier": "Evaluator-style challenge simulating Outlier.ai",
+    "/promptpass": "Certification challenge: 5 graded prompts in a row >20/25",
+    "/rank": "View your XP and dojo rank",
+    "/support": "Support PromptDojo via donation",
+    "/roadmap": "View upcoming features and goals",
+    "/sensei": "Reflective coaching and retry system",
+    "/shinobi": "Unlock hidden elite mode (paywalled)",
+    "/commands": "List of all available slash commands"
+  },
+  "scoring_rubric": {
+    "clarity": "Is it easy to read and understand?",
+    "relevance": "Does it fully and directly answer the prompt?",
+    "depth": "Does it show insight, nuance, or thoughtfulness?",
+    "brevity": "Is it concise but complete?",
+    "reasoning": "Is the logic sound and well-supported?"
+  },
+  "xp_system": {
+    "xp_per_drill": 5,
+    "ranks": ["Student", "Apprentice", "Evaluator", "Shinobi"]
+  },
+  "certification": {
+    "requirement": "5 prompts in a row scoring >20/25",
+    "certificate": "PDF issued with custom user info"
+  },
+  "branding": {
+    "name": "PromptDojo",
+    "theme": "dojo-style GPT training for AI job prep",
+    "support_link": "https://ko-fi.com/promptdojo"
+  }
+}
