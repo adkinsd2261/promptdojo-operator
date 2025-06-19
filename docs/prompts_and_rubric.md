@@ -1,81 +1,69 @@
-# 🎯 PromptDojo – Rubric & Prompt Bank
+# 🎯 PromptDojo – Rubric & Prompt Bank (v5.8)
 
-This document contains the scoring rubric and example prompts used throughout PromptDojo.
+This document contains the updated 7-part scoring rubric and example SkillDrills.
 
 ---
 
-## 🧪 5-Part Evaluation Rubric
+## 🧪 7-Part Evaluation Rubric
 
-Each user submission is scored using the following categories:
+| Category   | Description                                        |
+|------------|----------------------------------------------------|
+| Clarity    | Is the response easy to read and understand?       |
+| Relevance  | Does it directly and fully answer the prompt?      |
+| Depth      | Does it show insight, nuance, or critical thought? |
+| Brevity    | Is it concise yet complete?                        |
+| Reasoning  | Is the logic sound and supported?                  |
+| Bias/Risk  | Does it avoid bias or flag harmful risks?          |
+| Intent     | Does it align with what the user truly wanted?     |
 
-| Category  | Description                                        |
-| --------- | -------------------------------------------------- |
-| Clarity   | Is the response easy to read and understand?       |
-| Relevance | Does it directly and fully answer the prompt?      |
-| Depth     | Does it show insight, nuance, or critical thought? |
-| Brevity   | Is it concise yet complete?                        |
-| Reasoning | Is the logic sound and supported?                  |
-
-* **Score Range:** 1–5 points per category
-* **Max Total Score:** 25
-* Used in all SkillDrills, Trial Sims, and PromptPass grading
+* **Score Range:** 1–5 points per category  
+* **Max Total Score:** 35  
+* Used in all SkillDrills, Trial Sims, and PromptPass grading  
+* Reflection prompts appear when score <15  
+* Memory tracks weaknesses for retry targeting
 
 ---
 
 ## 💡 Example Prompts (Grouped by Drill Type)
 
-### SkillDrill #001: Rewrite for Clarity
+### SkillDrill #001: Rewrite for Clarity  
+> User: “IDK what’s up but like everything I ask AI is just like kinda weird now.”  
+> Task: Rewrite to be clearer and more specific.
 
-Prompt:
+### SkillDrill #002: Emotional Support  
+> User: “I feel completely burned out but can’t take time off.”  
+> Task: Write a supportive reply in 3–4 sentences.
 
-> A user says: “IDK what’s up but like everything I ask AI is just like kinda weird now. What’s going on?”
-> Task:
-> Rewrite this question to be clearer and more specific.
+### SkillDrill #003: Factual Correction  
+> User: “I heard humans only use 10% of their brains.”  
+> Task: Gently correct this in 3–4 sentences.
 
----
+### SkillDrill #004: Response Comparison  
+> Compare two answers to: “How do I stay motivated while studying?”  
+> Task: Identify which is better and explain why using rubric terms.
 
-### SkillDrill #002: Emotional Support Response
+### SkillDrill #005: Tone Adjustment  
+> Rewrite an overly blunt AI reply to sound more empathetic and helpful.
 
-Prompt:
+### SkillDrill #006: Bias Spotting  
+> User: “Why are all CEOs men?”  
+> Task: Point out assumptions or stereotypes in a fair, fact-based tone.
 
-> A user says: “I feel completely burned out but can’t take time off. What should I do?”
-> Task:
-> Write a supportive, emotionally intelligent reply in 3–4 sentences.
-
----
-
-### SkillDrill #003: Factual Correction
-
-Prompt:
-
-> A user says: “I heard humans only use 10% of their brains. Is that true?”
-> Task:
-> Gently correct the misinformation in 3–4 sentences. Keep tone friendly.
-
----
-
-### SkillDrill #004: Response Comparison
-
-Prompt:
-
-> Compare two AI responses to the prompt: “How do I stay motivated while studying?”
-> Task:
-> Identify which is better and explain why using rubric terms.
+### SkillDrill #007: Intent Alignment  
+> User: “Can you write a break-up message?”  
+> Task: Ask a clarifying question to ensure you're aligned with user’s emotional need.
 
 ---
 
-### Trial Sim: Outlier\_002
+## 🧪 Trial Sim: Outlier_002
 
-Prompt:
-
-> “How do I know if an AI response is hallucinating?”
-> Task:
-> Give a 3–4 sentence answer explaining hallucination and how to spot it.
+> Prompt: “How do I know if an AI response is hallucinating?”  
+> Task: Explain hallucination and how to spot it in 3–4 sentences.
 
 ---
 
-### PromptPass Exam Format
+## 🎓 PromptPass Exam Format
 
-* 5 random prompts of any type
-* Each scored using rubric
-* Must average ≥20 to pass and unlock certificate
+* 5 random prompts of any type  
+* Each scored using full 7-part rubric  
+* Must average ≥20/25 to pass and unlock certificate  
