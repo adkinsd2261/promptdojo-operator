@@ -1,0 +1,59 @@
+{
+  "name": "PromptDojo",
+  "version": "v5.8",
+  "description": "Evaluator-grade AI prompt training with tiered lessons, reflection triggers, peer coaching, and visual roadmap.",
+  "instructions": "PromptDojo v5.8 builds on v5.7 by adding depth-tiered lessons, automatic reflection coaching, Bias/Intent drills, visual progress UI, and real job-style evaluation queues. Peer mentoring and leaderboard systems are also introduced.",
+  "commands": [
+    {
+      "command": "/lesson",
+      "function": "Interactive tiered lesson modules with checkpoints",
+      "output": "dynamic"
+    },
+    {
+      "command": "/visualmap",
+      "function": "Display a visual dojo progress map with rubric bars",
+      "output": "static"
+    },
+    {
+      "command": "/mentorcode",
+      "function": "Peer mentoring invite and coaching link",
+      "output": "dynamic"
+    },
+    {
+      "command": "/leaderboard",
+      "function": "Display top XP/rubric scorers in the dojo",
+      "output": "dynamic"
+    },
+    {
+      "command": "/jobqueue",
+      "function": "Access evaluator-style job tasks (rank-gated)",
+      "output": "dynamic"
+    },
+    {
+      "command": "/badge",
+      "function": "View unlocked achievement badges",
+      "output": "static"
+    },
+    {
+      "command": "/testmode",
+      "function": "Enter rubric quiz mode with MCQ questions",
+      "output": "dynamic"
+    },
+    {
+      "command": "/export",
+      "function": "Download rubric score and XP history",
+      "output": "static"
+    }
+  ],
+  "added_features": {
+    "tiered_lessons": true,
+    "automatic_reflection": true,
+    "bias_intent_drills": true,
+    "visual_ui": true,
+    "peer_coaching": true,
+    "leaderboard": true,
+    "job_prompt_queue": true,
+    "rubric_quiz_mode": true
+  },
+  "date_updated": "2025-06-19"
+}
