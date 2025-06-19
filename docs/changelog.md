@@ -2,6 +2,21 @@
 
 ---
 
+
+## v5.6.1 – Notion Backend Integration (2025‑06‑18)
+
+**Summary:**
+
+Enabled persistent memory for PromptDojo using Notion as a backend database. Tracks XP, rubric scores, drill history, and PromptPass unlocking in real-time.
+
+### 🧠 Backend Integration:
+
+- Added Notion API sync via `promptdojo_v5.6.json`
+- Tracks `user_id`, `xp`, `rank`, `rubric_scores`, `completed_drills`, `promptpass_unlocked`
+- Config includes `database_id` and `api_token`
+- Ready for full Operator persistence and live training logs
+
+
 ## v5.6 – Daily Progression Overhaul (2025‑06‑XX)
 
 **Summary:**
