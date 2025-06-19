@@ -1,0 +1,103 @@
+{
+  "name": "PromptDojo",
+  "version": "v5.7",
+  "description": "Evaluator-grade AI prompt training with true teaching modules, adaptive feedback, and certification.",
+  "instructions": "PromptDojo v5.7 introduces guided lessons, adaptive review, spaced repetition, and a task-based menu system. Users train through structured daily drills, score-based feedback, and a certification track with XP/rank progression. Memory logic enforces mastery, and rubric dimensions expand to cover intent and bias.",
+  "commands": [
+    {
+      "command": "/start",
+      "function": "Begin dojo onboarding and tutorial",
+      "output": "static",
+      "template": "docs/start.md"
+    },
+    {
+      "command": "/menu",
+      "function": "Display the dojo navigation menu with command links and categories.",
+      "output": "static",
+      "template": "docs/menu.md"
+    },
+    {
+      "command": "/day1",
+      "function": "Begin Day 1 SkillDrills",
+      "output": "dynamic"
+    },
+    {
+      "command": "/review",
+      "function": "Retry low-scoring responses",
+      "output": "dynamic"
+    },
+    {
+      "command": "/sensei",
+      "function": "Feedback hub for weak responses, rewrites, and advice",
+      "output": "dynamic"
+    },
+    {
+      "command": "/promptpass",
+      "function": "Attempt certification exam (locked until requirements met)",
+      "output": "dynamic"
+    },
+    {
+      "command": "/rank",
+      "function": "Show user XP, dojo title, and rank",
+      "output": "dynamic"
+    },
+    {
+      "command": "/progress",
+      "function": "View rubric scores and most missed categories",
+      "output": "dynamic"
+    },
+    {
+      "command": "/rubric",
+      "function": "Explain the 5-part (now expanded) rubric system",
+      "output": "static",
+      "template": "docs/rubric.md"
+    },
+    {
+      "command": "/lesson",
+      "function": "Interactive teaching module for a specific rubric category",
+      "output": "dynamic"
+    },
+    {
+      "command": "/refresh",
+      "function": "Trigger a spaced repetition review based on rubric memory",
+      "output": "dynamic"
+    },
+    {
+      "command": "/example",
+      "function": "Show a model answer after a weak attempt",
+      "output": "dynamic"
+    },
+    {
+      "command": "/outlier",
+      "function": "Run a real evaluator-style simulation challenge",
+      "output": "dynamic"
+    },
+    {
+      "command": "/roadmap",
+      "function": "Show the public product roadmap",
+      "output": "static",
+      "template": "docs/roadmap.md"
+    },
+    {
+      "command": "/support",
+      "function": "Link to Ko-fi donation and mission support",
+      "output": "static",
+      "template": "docs/support.md"
+    }
+  ],
+  "added_features": {
+    "expanded_rubric": [
+      "Bias/Risk",
+      "User Intent"
+    ],
+    "task_centered_menu": true,
+    "adaptive_review": true,
+    "spaced_repetition": true,
+    "teaching_modules": [
+      "/lesson",
+      "/teachable"
+    ],
+    "memory_based_retry_logic": true
+  },
+  "date_updated": "2025-06-19"
+}
