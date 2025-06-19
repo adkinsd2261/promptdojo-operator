@@ -1,37 +1,74 @@
-# 📜 Changelog
-
-This document logs all meaningful updates made to PromptDojo Operator.
+# PromptDojo Changelog
 
 ---
 
-### ✅ v5.2.2 (June 18, 2025)
+## v5.6 – Daily Progression Overhaul (2025‑06‑XX)
 
-* Minor patch for improved tone consistency
-* Updated `/support` link to [https://ko-fi.com/promptdojo](https://ko-fi.com/promptdojo)
-* Tweaked XP distribution messaging
+**Summary:**
 
-### ✅ v5.2.1 (June 17, 2025)
+Transforms PromptDojo into a true long-form learning engine with enforced progression, deepened teaching logic, and mastery-based certification.
 
-* Fixed onboarding bug where `/start` skipped days
-* Curriculum now properly flows from Day 1 to 7
+### 🔧 Fixes & Features:
 
-### ✅ v5.2 (June 17, 2025)
+- Added **minimum daily curriculum**: 5+ unique prompts per day
+- Implemented **strict daily gating**: users cannot skip ahead
+- Launched **XP & retry system**: all <18/25 scores must be redone
+- New **model answer logic** via `/example`
+- Added **rewrite coaching** via `/sensei` command
+- Introduced **reflection prompts** after weak scores
+- `/promptpass` now locked until:
+    - 15+ SkillDrills completed
+    - Rubric average > 20/25
+- Daily intros + tone enhancements for emotional continuity
+- Added `/roadmap` and `/commands` for better transparency
 
-* Expanded `/day1` through `/day7` with immersive training arc
-* Added adaptive coaching via `/sensei`
-* Donation call integrated into all feedback endpoints
-* Operator logic refactored to improve rubric feedback style
+### 📊 Education Improvements:
 
-### ✅ v5.1 (June 16, 2025)
+- No more 3-hour completions — full dojo arc now takes ~7+ sessions
+- Curriculum is structured to mirror real evaluator expectations
+- Focused on long-term retention, review, and iteration
 
-* `/promptpass` trial scoring adjusted to 5 prompts, 20/25 min avg
-* XP/Rank system introduced with `/rank` and dojo titles
+---
 
-### ✅ v5.0 (June 15, 2025)
+## v5.5 – Evergreen Learning System (2025‑06‑XX)
 
-* PromptDojo launched as Operator-native GPT
-* Full rubric scoring with tone-aware feedback
-* `/start`, `/rubric`, `/outlier`, `/progress` deployed
+- Removed 7-day limit: PromptDojo now supports ongoing mastery
+- `/review`, `/example`, and adaptive retry flow added
+- Rebalanced XP progression + rank system
+- `/rubricquiz` and `/progress` enhanced to track weakest category
+
+---
+
+## v5.4 – Tier 3 Curriculum Finalization (2025‑06‑XX)
+
+- Locked XP gate for `/promptpass`
+- Introduced `/finaltrial` (post-cert boss challenge)
+- Resume/LinkedIn badge output added post-certification
+- Coaching upgrades for struggling learners
+
+---
+
+## v5.3 – Structured Curriculum Patch (2025‑06‑XX)
+
+- Each day now includes 3–5 prompts minimum
+- Reflection questions added for knowledge retention
+- Daily gating logic initiated (partial)
+
+---
+
+## v5.2 – Onboarding, Role Expansion (2025‑06‑XX)
+
+- `/sensei` and `/rank` added
+- Added feedback loop for underperforming users
+- Certification tracking logic improved
+
+---
+
+## v5.0 – Operator Launch Version (2025‑06‑XX)
+
+- All GPT logic and product files wired into GitHub via `.md` docs
+- Introduced slash-command powered curriculum
+- Initial PromptPass system launched
 
 ### ✅ v4.0–v4.9 (June 12–14, 2025)
 
